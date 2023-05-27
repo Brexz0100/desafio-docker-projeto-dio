@@ -1,6 +1,6 @@
 version: '3.9'
-services:
-  apache:
+services: index.html
+  apache: '3.9'
     image: httpd:latest
     container_name: my-apache-app
     ports:
